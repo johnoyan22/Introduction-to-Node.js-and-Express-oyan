@@ -18,7 +18,12 @@ app.get('/', (req, res) => {
 
 app.use(express.json());
 
+app.post("/submit", (req, res) => {
 
+    const data = req.body
+    res.send(`Received: ${JSON.stringify(data)}`)
+
+})
 
 app.use((req, res, next) => {
     console.log("__Logging Middleware__");
