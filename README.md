@@ -1,2 +1,2 @@
 # John Timothy P. Oyan
-# BSIT - 3B
+BSIT - 3B
